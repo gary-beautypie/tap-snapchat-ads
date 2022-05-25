@@ -105,7 +105,7 @@ The Snapchat Ads Marketing API uses OAuth for API Authentication. Follow these i
   ![OAuth_Credentials](images/oauth_credentials.png)
 
 7. Enter the following (adjusted) URL into your browser:
-    1. URL: https://accounts.snapchat.com/login/oauth2/authorize?client_id=`YOUR_CLIENT_ID`&redirect_uri=`YOUR_REDIRECT_URI`
+    1. URL: https://accounts.snapchat.com/login/oauth2/authorize?client_id=`YOUR_CLIENT_ID`&redirect_uri=`YOUR_REDIRECT_URI`&scope=snapchat-marketing-api&response_type=code
     2. Authenticate the API App with username, password, and connection approval (Continue, Continue).
     3. Code: Capture the ...&`code=xxxxxx…` in the redirect URL. This `code` is used in the next step to generate the `refresh_token`.
 
